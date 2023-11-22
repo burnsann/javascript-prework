@@ -1,4 +1,3 @@
-let argButtonName; /* buttonPaper, buttonRock, buttonScissors; */
 
 /**
  * Describe this function...
@@ -6,7 +5,7 @@ let argButtonName; /* buttonPaper, buttonRock, buttonScissors; */
 function buttonClicked(argButtonName) {
   clearMessages();
   console.log(argButtonName + ' został kliknięty');
-  var argMoveId, argPlayerMove, argComputerMove, computerMove, playerMove, randomNumber, playerInput;
+  let computerMove, playerMove, randomNumber;
 
 /**
  * Describe this function...
